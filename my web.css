@@ -15,7 +15,7 @@ body{
 
 }
 .text-primary{
-    color: rgb(109, 217, 244);
+    color: rgb(11, 103, 241);
 } 
 
 
@@ -24,10 +24,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title {
     color:rgb(80, 84, 32);
-    font-size: 45px;;
+    font-size: 100px;;
     font-weight:800;
 }
 nav>ul{
@@ -41,4 +42,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgb(71, 70, 70);
+}
+/* header related styles*/
+.header{
+    background-color: rgb(216, 238, 246);
+    margin-top: 0;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
+    height: 650px;
+    border-radius: 50%;
 }
